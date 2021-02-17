@@ -22,6 +22,16 @@ namespace HelloWorld
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
+            //float is mostly used in graphic library (high demands for processing power)
+            //double is mostly used for real world values (except money)
+            //decimal is mostly used for finances (high level of accuracy)
+
+            bool q = false; //like any other boolean, its true or false
+            char singleL = 'A'; //char allows a single character literal or unicode
+            string username = "Heyheyhey"; //allows strings of characters DOUBLE QUOTES REQUIRED
+            Console.WriteLine(q);
+            Console.WriteLine(singleL);
+            Console.WriteLine(username);
         }
     }
 }
