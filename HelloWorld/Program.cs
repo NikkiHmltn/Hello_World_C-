@@ -15,6 +15,13 @@ namespace HelloWorld
             Console.WriteLine(x);
             Console.WriteLine(y);
             Console.WriteLine(z);
+
+            float a = 99.99f; //decimals and a range from 1.5 x 10^-45 to 3.4 x 10^38 (f is important to confirm its a float value)
+            double b = 1.5; //allows decimals and higher range than float, does not require 'f' 15 digit limit
+            decimal c = 1.5456734534567634534534534567M; //allows decimals higher range than double 28 digit limit (does require the 'M')
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
         }
     }
 }
